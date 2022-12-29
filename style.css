@@ -2,6 +2,7 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +19,8 @@
     align-items: center;
     width: 100vmax;
     height: 100%;
-    background: black;
+    background-image: url(nick-nice-gPm8h3DS1s4-unsplash.jpg);
+    background-size: 400px;
   }
 
   header {
@@ -150,7 +152,6 @@
   height: 800px;
   align-items: center;
   justify-content: center;
-  background:black;
 }
 
 .about .quote{
@@ -281,7 +282,6 @@
 
 
 .cardbody{
-  background-image: url(123456789012.png);
   background-size: 100%;
   width: 100vmax;
   position: relative;
@@ -365,7 +365,6 @@
   z-index: 2;
 }
 
-/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
 
 h1, h2, h3, h4, span {
   color: white;
@@ -422,7 +421,6 @@ i {
   margin-top: 8px;
 }
 
-/* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
 @media(max-width: 1000px) {
   body {
@@ -494,7 +492,7 @@ i {
   padding: 50px;
   font-size: 20px;
   position: relative;
-  left: -190px;
+  left: -170px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -528,7 +526,6 @@ i {
   flex-direction:row;
   position: relative;
   color: aliceblue;
-  background-color: black ;
 
 }
 
