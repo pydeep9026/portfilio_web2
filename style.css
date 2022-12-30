@@ -68,6 +68,9 @@
     color: white;
     border-right: 1.5px solid white;
   }
+  .main-navigation li:hover a{
+    color: #dcfd35;
+  }
 
 
 
