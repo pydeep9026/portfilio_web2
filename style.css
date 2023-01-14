@@ -281,6 +281,40 @@
 }
 
 
+.portfoliobtndiv{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.portfoliobtn{
+  font-size: 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  margin-left: 43%;
+  margin-right: 43%;
+  border-radius: 35px;
+  transition: ease-in 0.3s;
+  background-color: black;
+  color: azure;
+  border: 1px solid #dcfd35;
+  cursor: pointer;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.portfoliobtn:hover{
+  border-radius: 7px;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+
 
 
 
