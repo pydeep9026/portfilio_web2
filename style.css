@@ -73,11 +73,6 @@
   }
 
 
-
-
-
-
-
   .home {
     position:relative;
     width: 100vmax;
@@ -86,11 +81,23 @@
     align-items: center;
     justify-content: center;
     background-image: url(photo_2022-11-25_06-03-09.jpg);
-    background-size: 78vmax;
+    background-size: 1250px;
     background-attachment:fixed;
+    background-position: center;
     flex-direction: column;
 
   }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+
+
+
   .home .homebase{
     position:relative;
     width: 100vmax;
